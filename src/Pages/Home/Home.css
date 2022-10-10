@@ -1,0 +1,47 @@
+.contenedor-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+}
+.bgColorCarousel {
+    background-color: #d4d4d4;
+}
+.text-carousel {
+    font-size: 15px;
+}
+
+.CarouselImg {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+  }
+  .headerimagen {
+    position: relative;
+    text-align: center;
+    margin-top: 75px;
+    width: 100%;
+  }
+  .centered {
+    font-family: Copperplate;
+    font-size: 43px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .copperplate {
+    font-family: Copperplate;
+    font-size: 25px;
+  }
+  .headercontainer {
+    margin: 0px;
+    box-shadow: 15px 0px 0px 0px rgba(0,0,0,0.50);
+  }
+  .sombraCarousel {
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    border: 0.2px solid black;
+  }

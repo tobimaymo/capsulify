@@ -24,8 +24,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.paragraph {
+  color: black;
+}
+.navcolor {
+background-color: white;
 }
 
 @keyframes App-logo-spin {

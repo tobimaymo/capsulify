@@ -1,0 +1,74 @@
+.productoDetail {
+    align-self: center;
+    margin: 20px;
+}
+.CardDetail {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+.CardImg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    width: 25%;
+    height: 25%;
+}
+.infoAlbum{
+  margin-top: 85px;
+}
+.tituloDetail {
+    font-size: 50px;
+}
+.button-75 {
+    background-color: #F6F6F6;
+    border: 2px solid #1E1E1E;
+    border-radius: 30px;
+    box-shadow: #1E1E1E 4px 4px 0 0;
+    color: #1E1E1E;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0 26px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+  }
+  
+  .button-75:hover {
+    background-color: #7F7679;
+  }
+  
+  .button-75:active {
+    box-shadow: #1E1E1E 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  .precioDetail {
+    margin-right: 30px;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .descDetail {
+    font-size: 22px;
+    margin: 10px;
+  }
+  .tituloDetail {
+    font-size: 50px;
+}
+  .gridTracklist {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.tituloTrack {
+  font-size: 35px;
+}
+.padding-bg {
+  padding-top: 20px;
+}
