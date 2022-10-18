@@ -7,7 +7,7 @@
 
 Las dependencias que se utilizaron en este proyecto son:
 
-- [] Firebase
-- [] @mui/material
-- [] react-icons
-- [] react-bootstrap
+- [ ] Firebase
+- [ ] @mui/material
+- [ ] react-icons
+- [ ] react-bootstrap
