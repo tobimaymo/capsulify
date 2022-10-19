@@ -1,5 +1,5 @@
 # Proyecto E-Commerce: CoderHouse
-### Alumno: Tobias Maymo
+### Autor: Tobias Maymo
 
  Este proyecto fue creado con el cli de React [Create React App]
 ## Para levantar el proyecto, utilizar el siguiente comando

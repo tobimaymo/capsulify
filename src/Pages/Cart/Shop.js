@@ -47,7 +47,8 @@ const Shop = () => {
 		<div style={styles.containerShop}>
 			<h1>Complete your purchase</h1>
 			<form className='FormContainer' onSubmit={onSubmit}>
-				<TextField
+				<div>
+					<TextField
 					placeholder='Name'
 					style={{ margin: 10, width: 400 }}
 					name='name'
@@ -55,10 +56,19 @@ const Shop = () => {
 					onChange={handleOnChange}
 				/>
 				<TextField
+					placeholder='Last Name'
+					style={{ margin: 10, width: 400 }}
+					name='name'
+					value={values.lastName}
+					onChange={handleOnChange}
+				/>
+				</div>
+				
+				<TextField
 					placeholder='Phone'
 					style={{ margin: 10, width: 400 }}
 					name='phone'
-					value={values.lastName}
+					value={values.phone}
 					onChange={handleOnChange}
 				/>
 				<TextField

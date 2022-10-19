@@ -22,6 +22,7 @@ const Routing = () => {
                 <Route path={'/capsulify/album/detail/:id'} element={<ItemDetailContainer/>}/>
                 <Route path={'/capsulify/cart'} element={<Cart/>}/>
                 <Route path='*' element={<NotFound/>} />
+                <Route path={'/capsulify/album/detail/*'} element={<NotFound/>}/>
                 </Routes>
             <FooterBar/>
             </div>

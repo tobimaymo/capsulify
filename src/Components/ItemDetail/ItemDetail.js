@@ -1,14 +1,15 @@
 import { useContext, useState } from "react";
+import { Link } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
 import ItemCount from "../ItemCount/ItemCount";
 import "./ItemDetail.css"
 
 function ItemDetail ({item}) {
-    const [setGoToCart] = useState(0);
+    const [selectedItem, setSelectedItem] = useState(0);
     const {addItem} = useContext(CartContext); 
   
     const onAdd = (quantity) => {
-        setGoToCart(quantity)
+        setSelectedItem(quantity)
         addItem(item, quantity);
     };
     console.log(item)
@@ -26,7 +27,16 @@ function ItemDetail ({item}) {
               <p className="descDetail">{item.tracklist}</p>
             </div>
             <p className="precioDetail">${item.precio}</p>
-            <ItemCount stock={item.stock} initial={1} onAdd={onAdd} />
+            {/* <ItemCount stock={item.stock} initial={1} onAdd={onAdd} /> */}
+            {setSelectedItem > 0 ? (
+          <Link to="/capsulify/cart" onClick={() => addItem(item, selectedItem)}>
+            <button className="btn btn-dark">
+              Agregar {setSelectedItem} al carrito
+            </button>
+          </Link>
+        ) : (
+          <ItemCount stock={item.stock} initial={1} onAdd={onAdd} />
+        )}
           </div>
         </div>
         <p className="tituloDetail"> TRACKLIST </p>

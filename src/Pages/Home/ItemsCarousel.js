@@ -4,13 +4,13 @@ import "../Cart/Cart.css"
 
 const ItemsCarousel = ({dats}) => {
   return (
-    <div className="sombraCarousel album py-5 cartText bgColorCarousel" id="divMain">
+<div className='album py-5 cartText bg-light' id="divMain">
         {dats.filter((item, idx) => idx < 1).map((prop) => (
             <>
             <p className='text-carousel'>Albums de {prop.autor}</p>
             </>
         ))}
-        <div className='contenedor-list'>
+        <div className='contenedor-list sombraCarousel bgColorCarousel'>
             {dats.filter((item, idx) => idx < 4).map((prod) => (
             <>
             <div>
@@ -22,7 +22,7 @@ const ItemsCarousel = ({dats}) => {
             </>
             ))}
         </div>
-    </div>
+</div>
   )
 }
 
