@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/capsulify/static/css/main.db769eea.css",
+    "main.js": "/capsulify/static/js/main.3cbe89b8.js",
+    "index.html": "/capsulify/index.html",
+    "main.db769eea.css.map": "/capsulify/static/css/main.db769eea.css.map",
+    "main.3cbe89b8.js.map": "/capsulify/static/js/main.3cbe89b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db769eea.css",
+    "static/js/main.3cbe89b8.js"
+  ]
+}
