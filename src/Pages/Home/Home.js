@@ -33,12 +33,12 @@ function Home() {
   return (
     <>
       <HomeHeader />
-          <ItemsCarousel dats={bts}/>
-          <Link to={`/capsulify/album/BTS`} className='button-75'>Mas</Link>
-          <ItemsCarousel dats={ts}/>
-          <Link to={`/capsulify/album/Taylor Swift`} className='button-75'>Mas</Link>
-          <ItemsCarousel dats={otros}/>
-          <Link to={`/capsulify/album/Otros`} className='button-75'>Mas</Link>
+      <div className="gridCarousel album bg-light" id="divMain">
+        <div><ItemsCarousel dats={bts}/><Link to={`/capsulify/album/Otros`} className='button-75'>Mas</Link></div>
+        <div><ItemsCarousel dats={ts}/><Link to={`/capsulify/album/Otros`} className='button-75'>Mas</Link></div>
+        <div><ItemsCarousel dats={otros}/><Link to={`/capsulify/album/Otros`} className='button-75'>Mas</Link></div>
+      </div>
+          
     </>
   )
 }

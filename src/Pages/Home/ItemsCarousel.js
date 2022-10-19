@@ -4,7 +4,7 @@ import "../Cart/Cart.css"
 
 const ItemsCarousel = ({dats}) => {
   return (
-<div className='album py-5 cartText bg-light' id="divMain">
+<div className='py-5 cartText bg-light'>
         {dats.filter((item, idx) => idx < 1).map((prop) => (
             <>
             <p className='text-carousel'>Albums de {prop.autor}</p>
