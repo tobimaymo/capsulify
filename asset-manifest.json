@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/capsulify/static/css/main.db769eea.css",
-    "main.js": "/capsulify/static/js/main.3cbe89b8.js",
+    "main.css": "/capsulify/static/css/main.53d2837f.css",
+    "main.js": "/capsulify/static/js/main.e4a08ffb.js",
     "index.html": "/capsulify/index.html",
-    "main.db769eea.css.map": "/capsulify/static/css/main.db769eea.css.map",
-    "main.3cbe89b8.js.map": "/capsulify/static/js/main.3cbe89b8.js.map"
+    "main.53d2837f.css.map": "/capsulify/static/css/main.53d2837f.css.map",
+    "main.e4a08ffb.js.map": "/capsulify/static/js/main.e4a08ffb.js.map"
   },
   "entrypoints": [
-    "static/css/main.db769eea.css",
-    "static/js/main.3cbe89b8.js"
+    "static/css/main.53d2837f.css",
+    "static/js/main.e4a08ffb.js"
   ]
 }
