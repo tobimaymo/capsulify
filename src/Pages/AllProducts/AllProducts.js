@@ -1,12 +1,12 @@
-import React from 'react'
-import ItemListContainer from '../../Components/ItemCard/ItemListContainer'
+import React from "react";
+import ItemListContainer from "../../Components/ItemCard/ItemListContainer";
 
-const AllProducts = ({ItemData}) => {
+const AllProducts = ({ ItemData }) => {
   return (
-    <div className='bg-light'>
-       <ItemListContainer ItemData={ItemData}/>
+    <div className="bg-light">
+      <ItemListContainer ItemData={ItemData} />
     </div>
-  )
-}
+  );
+};
 
-export default AllProducts
+export default AllProducts;

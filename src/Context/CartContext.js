@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { createContext, useState } from "react";
 
 export const CartContext = createContext([]);
 
@@ -10,17 +10,15 @@ export const CartProvider = ({ children }) => {
   };
 
   const isInCart = (id) => items.find((e) => e.item.id === id) !== undefined;
-  
+
   const clear = () => {
     setItems([]);
   };
-  
+
   const cartSize =
     items.length > 0 ? items.reduce((acc, cur) => acc + cur.quantity, 0) : 0;
 
-  
   const getItem = (id) => items.find((e) => e.item.id === id);
-
 
   const removeItems = (id, ammount) => {
     if (getItem(id).quantity > ammount) {
@@ -50,10 +48,6 @@ export const CartProvider = ({ children }) => {
       setItems([...items, { item, quantity }]);
     }
   };
-
-  useEffect(() => {
-    console.log("cart", items);
-  }, [items]);
 
   return (
     <CartContext.Provider

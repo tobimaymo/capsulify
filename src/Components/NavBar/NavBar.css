@@ -1,63 +1,63 @@
 .botonnav {
-    border-radius: 10px;
-  }
-.botonnav:hover{
-    background-color: #D7D7D7;
-  }
-  .navbartype {
-    width: 100%;
-  }
-  .navcolor {
-    background-color: rgba(0, 0, 0, 0.65);
-  }
-  .sidebarnav {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 30px;
-    margin-left: 20px;
-  }
-  .sidebarnav .listasidebar {
-    margin-bottom: -15px;
-  }
-  .sidebarnav .listasidebar .links p {
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.2em;
-    transition: all ease-out 300ms;
-    color: rgba(255, 255, 255, 0.3);
-    margin-right: 35px;
-    font-size: 20px;
-  }
-  .sidebarnav .listasidebar .links p:hover {
-    color: white;
-  }
-  .sidebarnav .listasidebar .links::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.1em;
-    background: black;
-    left: 0;
-    bottom: 0;
-    background-image: linear-gradient(to right, #5e42a6, #b74e91);
-  }
-  
-  .colorsidebar {
-    background-color: #0A0A0A;
-  }
-  .text {
-    color: white;
-    font-size: 20px;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-  }
-  .links {
-    text-decoration: none;
-    margin-top: 120px;
-  }
-  .navbarGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 40px;
-  }
+  border-radius: 10px;
+}
+.botonnav:hover {
+  background-color: #d7d7d7;
+}
+.navbartype {
+  width: 100%;
+}
+.navcolor {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.sidebarnav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  margin-left: 20px;
+}
+.sidebarnav .listasidebar {
+  margin-bottom: -15px;
+}
+.sidebarnav .listasidebar .links p {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  transition: all ease-out 300ms;
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 35px;
+  font-size: 20px;
+}
+.sidebarnav .listasidebar .links p:hover {
+  color: white;
+}
+.sidebarnav .listasidebar .links::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.1em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+}
+
+.colorsidebar {
+  background-color: #0a0a0a;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.links {
+  text-decoration: none;
+  margin-top: 120px;
+}
+.navbarGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
