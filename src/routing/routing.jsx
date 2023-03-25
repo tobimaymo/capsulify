@@ -13,9 +13,9 @@ const Routing = () => {
         <div className="App">
           <Navbar />
           <Routes>
-            <Route path={"/capsulify/browse"} element={<Home />} />
-            <Route path={"/capsulify/artist/BTS"} element={<BTSpage />} />
-            <Route path={"/capsulify/artist/Taylor Swift"} element={<TaylorSwiftPage />} />
+            <Route path={"/capsulify-music/browse"} element={<Home />} />
+            <Route path={"/capsulify-music/artist/BTS"} element={<BTSpage />} />
+            <Route path={"/capsulify-music/artist/Taylor Swift"} element={<TaylorSwiftPage />} />
           </Routes>
           <FooterBar/>
         </div>
