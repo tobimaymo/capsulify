@@ -13,7 +13,7 @@ const Routing = () => {
         <div className="App">
           <Navbar />
           <Routes>
-            <Route path={"/capsulify/browse"} element={<Home />} />
+            <Route path={"/capsulify/"} element={<Home />} />
             <Route path={"/capsulify/artist/BTS"} element={<BTSpage />} />
             <Route path={"/capsulify/artist/Taylor Swift"} element={<TaylorSwiftPage />} />
           </Routes>

@@ -23,13 +23,13 @@ const NavBar = () => {
     <>
         <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
             <div className="navbar-left">
-                <Link to={"/capsulify/browse"}>
+                <Link to={"/capsulify/"}>
                 <img src={process.env.PUBLIC_URL + "/img/logo.png"} alt="LogoCapsulify"/>
                  <span>Capsulify</span>
                 </Link>
             </div>
             <div className="navbar-center">
-                <Link to={"/capsulify/browse"}>Home</Link>
+                <Link to={"/capsulify/"}>Home</Link>
                 <Link to={"/capsulify/artist/BTS"}>BTS</Link>
                 <Link to={"/capsulify/artist/Taylor Swift"}>Taylor Swift</Link>
                 <a href="#">Link 4</a>
