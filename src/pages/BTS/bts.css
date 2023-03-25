@@ -1,0 +1,34 @@
+.logo-artista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+.bts-page-config {
+  width: 100%;
+  overflow: hidden;
+}
+main {
+  background-color: #182029;
+}
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 20px;
+  margin-left: 15px ;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .album-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .album-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

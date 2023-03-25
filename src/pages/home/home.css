@@ -1,0 +1,36 @@
+.titulo-categoria-bts {
+    color: #9575cd;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 96px;
+}
+.titulo-categoria-bts span {
+    margin-left: 10px;
+    color: white;
+}
+
+.titulo-categoria-ts {
+    color: #Ac9fb8;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 96px;
+}
+.titulo-categoria-ts span {
+    margin-left: 10px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .titulo-categoria-bts {
+        text-align: center;
+        margin-left: 0px;
+        padding-top: 120px;
+        font-size: 45px;
+    }
+    .titulo-categoria-ts {
+        text-align: center;
+        margin-left: 0px;
+        font-size: 45px;
+    }
+}

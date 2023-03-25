@@ -1,0 +1,41 @@
+.logo-artista-ts {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-align: center;
+}
+
+.logo-artista-ts img {
+    width: 100%;
+    max-width: 438px;
+    height: auto;
+}
+.gallery-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 240px;
+}
+
+
+@media (max-width: 768px) {
+    .logo-artista-ts {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999;
+        margin-bottom: 0;
+    }
+      .gallery-container {
+    height: 430px;
+  }
+
+  .gallery-ts img {
+    max-width: 100%;
+    width: 100%;
+    height: 750px;
+  }
+  }
