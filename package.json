@@ -2,7 +2,7 @@
   "name": "capsulify2.1",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://tobimaymo.github.io/capsulify-music/",
+  "homepage": "https://tobimaymo.github.io/capsulify/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
