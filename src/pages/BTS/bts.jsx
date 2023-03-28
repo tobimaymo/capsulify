@@ -29,10 +29,9 @@ const BTSpage = () => {
       <GalleryBTS/>
         <main>
         <div className="logo-artista">
-          <img src={process.env.PUBLIC_URL + "/img/bts-logo.png"} alt="bts-logo" width="600px" height="438"/>
+          <img src={process.env.PUBLIC_URL + "/img/bts-logo.png"} alt="bts-logo" width="438px" height="320"/>
         </div>
         <p className='titulo-categoria-bts'>BTS <span className="categoria"> Albums</span></p>
-        <p className='titulo-categoria'>BTS <span className="categoria"> Albums</span></p>
         <div className="album-grid">
           <ItemList productos={albumOrdenado} />
         </div>

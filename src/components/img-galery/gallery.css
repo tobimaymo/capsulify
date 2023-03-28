@@ -57,3 +57,20 @@
       height: auto;
     }
   }
+@media screen and (max-width: 760px) {
+  .gallery-bts {
+    
+    height: 640px;
+  }
+  
+  .gallery-bts img {
+    width: 0px;
+    flex-grow: 1;
+  }
+  
+  .gallery-bts img:hover {
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+}

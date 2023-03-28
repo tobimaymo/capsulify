@@ -4,6 +4,7 @@
     justify-content: flex-start;
     position: relative;
     background-color: #000;
+    margin-top: 34px;
   }
 
   .header-carousel-container img {
@@ -32,6 +33,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+    background-color: #0d1217;
   }
   .header-carousel-description p {
     margin-left: 70px;
@@ -42,6 +44,9 @@
     max-width: 600px;
   }
   @media (max-width: 767px) {
+    .header-carousel {
+      display: none;
+    }
     .header-carousel-description {
       width: 100%;
     }

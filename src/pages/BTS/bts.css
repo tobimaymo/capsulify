@@ -9,9 +9,6 @@
   width: 100%;
   overflow: hidden;
 }
-main {
-  background-color: #182029;
-}
 .album-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

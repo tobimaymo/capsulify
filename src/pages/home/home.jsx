@@ -40,7 +40,7 @@ const Home = () => {
     <>   
         {showCarousel &&<Header/>}
         <main>
-        <p className='titulo-categoria-bts'>BTS <span className="categoria"> Albums</span></p>
+        <p className='titulo-categoria-bts' style={{ paddingTop: '160px' }}>BTS <span className="categoria"> Albums</span></p>
         <div className="album-carousel-container">
             <AlbumCarousel albums={bts} /> 
         </div>

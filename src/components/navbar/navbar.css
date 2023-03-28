@@ -21,7 +21,6 @@
   
   .navbar-left {
     display: flex;
-    align-items: center;
   }
   
   .navbar-left a {
@@ -39,6 +38,21 @@
     display: flex;
     justify-content: center;
   }
+  
+.menu-toggler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #333333;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.menu-links {
+  display: none;
+
+}
   
   .navbar-center a {
     margin: 0 1rem;
@@ -83,34 +97,92 @@
     padding: 0.2rem 0.5rem;
     border-radius: 50%;
   }
+  .navbar-center a:hover {
+    border-bottom: 2px solid white;
+  }
+  .log-in {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #243145;
+  }
+  
   @media (max-width: 768px) {
     .navbar-left {
-      order: 1; /* Cambia el orden del elemento */
+      order: 2;
     }
     
     .navbar-center {
-      order: 2; /* Cambia el orden del elemento */
-      width: 100%; /* Ajusta el ancho para ocupar todo el espacio disponible */
-      text-align: center; /* Centra los enlaces */
-      margin-top: 1rem; /* Añade un margen superior */
+      order: 1;
+      margin-top: 1rem;
+      padding-left: 1rem;
+    }
+    .navbar-center a {
+      font-size: 0.95rem;
     }
     
     .navbar-right {
-      order: 1; /* Cambia el orden del elemento */
-      margin-left: auto; /* Añade margen a la izquierda para que se alinee a la derecha */
+      order: 3;
+      margin-left: auto;
+      font-size: 7px;
     }
     
     .navbar-center a {
-      display: block; /* Hace que los enlaces ocupen todo el ancho disponible */
-      margin: 1rem; /* Añade margen vertical y lateral */
+      display: block;
+      margin: 1rem;
     }
     
     .navbar-left span {
-      display: none; /* Oculta el span */
+      display: none;
     }
     
     .navbar-left img {
-      width: 40px; /* Reduce el tamaño del logo */
-      margin-right: 0.5rem; /* Ajusta el margen derecho */
+      width: 40px;
+      margin-right: 0.5rem;
+    }
+    .menu-links.open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #0d1217;
+      border-bottom: solid black 1px;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+      z-index: 99;
+    }
+    
+    .menu-links a {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333333;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .menu-links a:hover {
+      background-color: #f8f8f8;
+    }
+    .log-in {
+      padding: 5px;
+      border-radius: 5px;
+      background-color: #243145;
+    }
+    .cart-widget {
+      width: 12px;
+      margin-bottom: 0px;
+    }
+    .cart-widget span {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .menu-links {
+      display: flex !important;
+    }
+    .menu-toggler {
+      display: none;
     }
   }

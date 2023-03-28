@@ -1,3 +1,6 @@
+main {
+    background-color: #0d1217;
+  }
 .titulo-categoria-bts {
     color: #9575cd;
     font-family: fantasy;
@@ -25,7 +28,6 @@
     .titulo-categoria-bts {
         text-align: center;
         margin-left: 0px;
-        padding-top: 120px;
         font-size: 45px;
     }
     .titulo-categoria-ts {

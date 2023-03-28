@@ -1,19 +1,20 @@
 .slick-list {
-    overflow: visible !important;
+  position: relative;
+  overflow: hidden;
+  display: block;
   }
   
   .slick-slide {
     padding: 40px;
     padding-left: 55px ;
     padding-right: 55px ;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    
+    margin-bottom: 6px;
+    margin-top: 6px;
   }
   
   .slick-track {
     margin-left: 0px;
-    background-color: #232f3e;
+    display: block;
   }
   
   .album-item {
@@ -58,6 +59,7 @@
   }
   
   .descripcion {
+      font-family: fantasy;
       width: 100%;
       box-sizing: border-box;
       display: none;
@@ -70,9 +72,11 @@
   .descripcion p {
     color: #fff;
     margin-left: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
   .descripcion .descripcion-titulo {
-    font-size: 20px
+    font-size: 24px
   }
   .figureclass {
       background-color: #000000;
@@ -90,15 +94,9 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-  }
-  
-  .carousel-buttons {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #182029;
   }
   
   .carousel-prev,
@@ -122,18 +120,27 @@
   
   .carousel-prev {
     margin-left: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
   }
   
   .carousel-next {
     margin-right: 2rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
   }
   
   @media screen and (max-width: 768px) {
+    .album-carousel {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
     .slide-container {
       flex-direction: row;
-    }
-    .carousel-buttons {
-        display: none;
     }
     .carousel-prev,
     .carousel-next {
