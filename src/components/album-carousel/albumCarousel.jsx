@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './albumCarousel.css';
+import { Link } from 'react-router-dom';
 
 const AlbumCarousel = ({ albums }) => {
   const sliderRef = useRef();
@@ -86,6 +87,10 @@ const AlbumCarousel = ({ albums }) => {
           <div className="slide-container">
             <figure className="figureclass">
               <div className="img-container">
+              <Link
+                  to={`/capsulify/album/${album.id}`}
+                  className="linkalbum"
+                >
                 <img
                   src={album.img}
                   alt={album.alt}
@@ -93,6 +98,7 @@ const AlbumCarousel = ({ albums }) => {
                   width="100%"
                   height="100%"
                 />
+                </Link>
               </div>
               {descriptions[index] && (
                 <div className="descripcion">

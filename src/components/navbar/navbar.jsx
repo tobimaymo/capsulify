@@ -52,6 +52,9 @@ const NavBar = () => {
           <a href="#" onClick={toggleMenu}>
             Link 5
           </a>
+          <a href="#" className="log-in-toggler" onClick={toggleMenu}>
+            Log In
+          </a>
         </div>
       </div>
       <div className="navbar-right">

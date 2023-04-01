@@ -6,6 +6,7 @@ import FooterBar from "../components/footer/footer";
 import BTSpage from "../pages/BTS/bts";
 import TaylorSwiftPage from "../pages/TaySwift/ts";
 import NotFound from "../pages/NotFound";
+import ItemDetailContainer from "../components/item-detail/itemdetail-container";
 
 const Routing = () => {
   return (
@@ -17,6 +18,7 @@ const Routing = () => {
             <Route path={"/capsulify/"} element={<Home />} />
             <Route path={"/capsulify/artist/BTS"} element={<BTSpage />} />
             <Route path={"/capsulify/artist/Taylor Swift"} element={<TaylorSwiftPage />} />
+            <Route path={"/capsulify/album/:id"} element={<ItemDetailContainer />}/>
             <Route path="*" element={<NotFound/>} />
           </Routes>
           <FooterBar/>

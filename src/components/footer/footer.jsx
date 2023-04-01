@@ -8,12 +8,12 @@ const FooterBar = () => {
         <a className="social-button facebook" href="https://www.facebook.com/">
           <i className="fab fa-facebook-f"></i>
         </a>
-        <a className="social-button twitter" href="https://www.twitter.com/">
-          <i className="fab fa-twitter"></i>
+        <a className="social-button github" href="https://github.com/tobimaymo">
+          <i className="fab fa-github"></i>
         </a>
         <a
           className="social-button linkedin"
-          href="https://www.linkedin.com/in/tobias-mateo-maymo/"
+          href="https://www.linkedin.com/in/tobias-maymo/"
         >
           <i className="fab fa-linkedin"></i>
         </a>
